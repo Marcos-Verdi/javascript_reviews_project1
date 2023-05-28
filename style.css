@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    background-color:paleturquoise;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Urbanist;
+}
+
+.main-title {
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-underline {
+    height: 0.05em;
+    width: 2em;
+    background-color: darkcyan;
+} 
+
+.review-container {
+    height: 65%;
+    width: 75%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.user-img {
+    height: 6em;
+    width: 6em;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.user-info {
+    text-align: center;
+}
+
+.user-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: translateX(-0.25em) translateY(0.25em);
+}
+
+.review-text {
+    text-align: center;
+}
+
+.left-btn,
+.right-btn {
+    height: 2em;
+    width: 2em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
